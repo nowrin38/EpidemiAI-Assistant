@@ -7,7 +7,7 @@
 ## 📽️ Project Presentation & Live Traces
 
 * **📺 Video Presentation & Demo:** [Insert Your Presentation Video Link Here]()
-* **🔍 Live LangSmith Traces Dashboard:** [View Public LangSmith Project Traces]([https://smith.langchain.com/public/your-trace-link/r](https://smith.langchain.com/public/92cc976e-e964-4006-be4d-c45a91232fc2/r/01a08fba-4f6b-76cf-bc3f-2cb3419b0f1b?start_time=2026-09-11T09%3A09%3A07.051001Z))
+* **🔍 Live LangSmith Traces Dashboard:** [View Public LangSmith Project Traces](https://smith.langchain.com/public/92cc976e-e964-4006-be4d-c45a91232fc2/r/01a08fba-4f6b-76cf-bc3f-2cb3419b0f1b?start_time=2026-09-11T09%3A09%3A07.051001Z))
 
 ---
 
@@ -86,6 +86,7 @@ file: Image upload (e.g., mosquito image, symptom image, breeding area).
 ---
 
 Observability & LangSmith Tracing
+
 All LLM runs executed by EpidemiAI are automatically recorded on the LangSmith dashboard. This ensures:
 
 1.Full Trace Visibility: Complete logging of system prompts, human user messages, and base64-encoded image payloads.
