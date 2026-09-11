@@ -69,6 +69,8 @@ npm install
 
 Start the frontend development server:
 npm run dev
+
+
 ---
 
 
@@ -83,6 +85,8 @@ Request Body:
 query : Text query or prompt regarding disease surveillance or symptoms.
 
 file: Image upload (e.g., mosquito image, symptom image, breeding area).
+
+
 ---
 
 Observability & LangSmith Tracing
