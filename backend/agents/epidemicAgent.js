@@ -11,7 +11,7 @@ import { SYSTEM_PROMPT } from '../prompts/surveillance.js';
 
 const model = new ChatGoogleGenerativeAI({
 model: "gemini-3.6-flash",
-  apiKey: process.env.GEMINI_API_KEY || "AQ.Ab8RN6LqHBtb6jCs86BT9tz_UmzLco4m-1XKRKV13adgu3ASAQ",
+  apiKey: process.env.GEMINI_API_KEY || "AQ.Ab8RN6LHDDo7mgNkUjzx069VXyRD8LPSkF1sDvjgAMBTQdslXg",
 });
 
 async function callGeminiWithRetry(messages, maxRetries = 5, initialDelay = 3000) {
